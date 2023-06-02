@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+    font-size: 13px;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+.container{
+    width: 375px;
+    margin: 20px auto;
+}
+
+header{
+    border-bottom: 1px solid #C6C6C6;
+    padding: 15px;
+}
+
+header,
+section {
+    background-color: #FFFFFF;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+#profile{
+    float: right;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-details{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#avatar{
+    border-radius: 50%;
+}
+
+#name, 
+#location,
+#likes, 
+.bio{
+    margin: 0;
+}
+
+#location{
+    font-size: 12px;
+}
+
+#post{
+    width:375px;
+}
+
+.features{
+    padding: 10px;
+}
+
+#icons,
+#likes, 
+#bio {
+    margin-top: 5px;
+}
+
+#icons{
+    opacity: 0.8;
+}
+
+#icons:hover{
+    opacity: 1;
+}
+
+#likes{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+#username, 
+#comment{
+    display: inline;
+}
